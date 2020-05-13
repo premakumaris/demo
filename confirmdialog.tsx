@@ -9,6 +9,7 @@ import {
   DefaultButton
 } from "office-ui-fabric-react/lib/Button";
 import * as strings from "ProjectSpaceWebPartStrings";
+import * as React from "react";
 
 export interface IConfirmDialogProps {
   onValidation: () => void;
